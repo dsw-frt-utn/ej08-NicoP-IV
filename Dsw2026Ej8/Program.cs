@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //PROBLEMA 1, EJEMPLO
+            string resultado = ProductHelper.ObtenerEtiquetaProducto(60680, "Leche Entera", 1800.64m);
+            Console.WriteLine(resultado);
+
         }
     }
 }
